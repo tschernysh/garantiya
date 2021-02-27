@@ -25,6 +25,7 @@ p {
 }
 
 .documents__text {
+    margin-top: 20px;
     font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
@@ -32,6 +33,10 @@ p {
     line-height: 140%;
     color: #646464;
     margin-bottom: auto;
+}
+
+.documents__title-box-bottom {
+    margin-top: 30px;
 }
 
 .documents__title-bottom {
@@ -86,10 +91,15 @@ p {
     border: 0;
 }
 
-
 .footer__top {
+    margin-top: 25px;
     display: flex;
     justify-content: center;
+}
+
+.footer__logo {
+    width: 106px;
+    height: 52px;
 }
 
 ul.footer__list li {
@@ -130,6 +140,6 @@ a {
     color: #AAAAAA;
     text-align: center;
     line-height: 180%;
-} 
-
-
+    overflow-wrap: break-word;
+    margin-bottom: 15px;
+}
