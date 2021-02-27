@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -73,7 +73,7 @@
 
 .header__top_btn {
     font-family: 'Open Sans';
-=======
+}
 .documents__content {
     display: flex;
     justify-content: center;
@@ -154,12 +154,10 @@ p {
     border-radius: 4px;
     margin-top: 20px;
     font-family: Open Sans;
->>>>>>> Alexandr_Umanskyi
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
     line-height: 194.69%;
-<<<<<<< HEAD
     color: #2A3A61;
     text-decoration: none;
     border: 2px solid #F4E2BB;
@@ -243,58 +241,4 @@ p {
 }
 .slick__dots button{
     /* opacity: 0; */
-=======
-    color: #FFFFFF;
-    border: 0;
-}
-
-
-
-
-
-
-.footer__top {
-    display: flex;
-    justify-content: center;
-}
-
-ul.footer__list li {
-    display: inline;
-    margin-right: 45px;
-}
-
-a {
-    text-decoration: none;
-    margin-right: 6px;
-}
-
-.footer__list {
-    font-family: Open Sans;
-}
-
-.footer__adress {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-}
-
-.footer__phone {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-}
-
-.footer__links {
-    margin-top: 15px;
-}
-
-.footer__bottom {
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 13px;
-    color: #AAAAAA;
-    text-align: center;
-    line-height: 180%;
->>>>>>> Alexandr_Umanskyi
 }
