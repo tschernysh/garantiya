@@ -109,3 +109,54 @@
     text-decoration: none;
     padding: 0px 12px;
 }
+
+.main__slide{
+    position: relative;
+    background-image: url(../img/main-slider.png);
+    width: 100vw;
+    height: 565px;
+    overflow: hidden;
+}
+.main__top {
+    font-family: Literata;
+    font-size: 72px;
+    line-height: 90%;
+    width: 657px;
+    color: #fff;
+    margin-bottom: 24px;
+}
+.main__bot{
+    font-family: Literata;
+    font-size: 26px;
+    line-height: 120%;
+    color: #fff;
+    margin-bottom: 36px;
+}
+.main__button span{
+    font-family: Open sans;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+}
+.main__button{
+    background-color: #324B8C;
+    border-radius: 4px;
+    padding: 11px 23px 13px;
+    width: 138px;
+    text-decoration: none;
+
+}
+.main__title{
+    position: absolute;
+    top: 70px;
+    left: 372px;
+}
+.slick__dots{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    list-style-type: square;
+}
+.slick__dots button{
+    /* opacity: 0; */
+}
