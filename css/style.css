@@ -1,0 +1,45 @@
+
+.footer__top {
+    display: flex;
+    justify-content: center;
+}
+
+ul.footer__list li {
+    display: inline;
+    margin-right: 45px;
+}
+
+a {
+    text-decoration: none;
+    margin-right: 6px;
+}
+
+.footer__list {
+    font-family: Open Sans;
+}
+
+.footer__adress {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.footer__phone {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.footer__links {
+    margin-top: 15px;
+}
+
+.footer__bottom {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    color: #AAAAAA;
+    text-align: center;
+    line-height: 180%;
+}
