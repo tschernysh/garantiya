@@ -1,0 +1,274 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+            /*----------HEADER-----------*/
+
+.header__top {
+    position: relative;
+    display: flex;
+    padding: 26px 10px;
+}
+
+.header__top_whatsappIcon {
+    background: #F9F9F9;
+    border-radius: 6px;
+    padding: 14px;
+    max-width: 55px;
+    max-height: 55px;
+}
+
+.header__top_viberIcon {
+    background: #F9F9F9;
+    border-radius: 6px;
+    padding: 16px;
+    max-width: 55px;
+    max-height: 55px;
+}
+
+svg {
+    max-width: 35px;
+    max-height: 35px;
+}
+
+/*добавил зеленый бордер при наводке на кнопку,это не обязательно,так что если что,то можно удалить*/
+.header__top_whatsappIcon:hover {
+    padding: 12px;
+    border: 2px solid #28D347FF;
+}
+
+/*Добавил фиолетовый бордер при наводке на кнопку,можно удалить,если лишнее*/
+.header__top_viberIcon:hover {
+    padding: 14px;
+    border: 2px solid #2E4581FF;
+}
+
+.header__top_contacts {
+   display: flex;
+}
+
+.header__top_contactsText {
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 194.69%;
+    color: #000000;
+}
+
+.header__top_phone {
+    text-decoration: none;
+    color: black;
+}
+
+/*подчеркивание номера телефона при наводке,можно удалит,если не нужно*/
+.header__top_phone:hover {
+    text-decoration: underline 2px #000000;
+}
+
+.header__top_workTime {
+    font-weight: normal;
+    color: #808080;
+    margin-left: 2%;
+}
+
+.header__top_address {
+    font-weight: normal;
+    color: #505050; 
+    margin-top: -10px;   
+}
+
+.header__top > img {
+    height: 61px;
+    width: 123px;
+    position: absolute;
+    left: 45%;
+    right: 55%;
+}
+
+.header__top_btn {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 194.69%;
+    color: #2A3A61;
+    text-decoration: none;
+    border: 2px solid #F4E2BB;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 11px 22px;
+    margin: auto 0px auto auto;
+}
+
+/*добавил синие подчеркивание и бордер для кнопки,если чтоЮможно удалить*/
+.header__top_btn:hover {
+   text-decoration: underline #2A3A61 2px;
+   border: 2px solid #2A3A61;
+   transition: .2s linear;
+}
+
+.header__nav {
+    background: #2A3A61;
+    display: flex;
+    justify-content: space-around;
+    padding: 8px;
+    text-align: center;
+}
+
+.header__nav > .container > nav > a {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 194.69%;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 0px 12px;
+    white-space: nowrap;
+    margin: 0 auto;
+}
+
+        /*----------'Are u bankrupt?' form----------*/
+
+.areUbancrupt__form {
+    margin-top: 97px;
+}
+
+.areUbancrupt__form_top :nth-child(1){
+    font-family: 'Literata';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 110%;
+    text-align: center;
+    color: #2A3A61;
+    margin-bottom: 31px;
+}
+
+.areUbancrupt__form_top :nth-child(2) {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 140%;
+    text-align: center;
+    color: #646464;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.areUbancrupt__form_checkBoxesBlock {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+    margin-top: 46px;
+}
+
+.areUbancrupt__form_checkBoxes {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 70px;
+}
+
+.areUbancrupt__form_checkBoxesBlock_h1 {
+    font-family: 'Literata';
+    font-size: 26px;
+    line-height: 120%;
+    color: #2A3A61;
+    margin-bottom: 7px;
+}
+
+.areUbancrupt__form_checkBoxesBlock_text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #808080;
+    margin-bottom: 7px;
+}
+
+.areUbancrupt__checkBox {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 170%;
+    color: #505050;
+    padding-right: 53px;
+}
+
+.areUbancrupt__checkBox > span {
+    padding-left: 10px;
+    white-space: nowrap;
+}
+
+input[type="checkbox"]:checked + span {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 170%;
+    color: #191919;
+}
+
+.areUbancrupt__form_line {
+    height: 2px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.05);
+}
+
+input[type="text"] {
+    background: #FFFFFF;
+    border: 2px solid #F0F0F0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 194.69%;
+    color: #AAAAAA;
+}
+
+input[type="tel"] {
+    background: #FFFFFF;
+    border: 2px solid #F0F0F0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 194.69%;
+    color: #AAAAAA;
+}
+
+input[type="submit"] {
+    background: #324B8C;
+    border-radius: 4px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 194.69%;
+    color: #FFFFFF;
+    border: none;
+    padding: 11px 23px 13px 23px;
+}
+
+.areUbancrupt__form_sending_form {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
