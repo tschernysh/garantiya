@@ -422,3 +422,132 @@ a {
     overflow-wrap: break-word;
     margin-bottom: 15px;
 }
+
+
+
+/*-----------buhhalteria-------------*/
+
+
+.offer__top {
+    display: flex;
+    flex-direction: column;
+}
+
+.offer__title {
+    text-align: center;
+    font-family: Literata;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 110%;
+    color: #2A3A61;
+    margin-bottom: 20px;
+}
+
+.offer__text {
+    text-align: center;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 140%;
+    color: #646464;
+    margin-bottom: 36px;
+}
+
+.offer__blocks__text, .offer__error__text {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+
+}
+
+.offer__blocks {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.offer__consultations, .offer__bookkeeping, .offer__reports, .offer__legal, .offer__taxes, .offer__recovery {
+    flex:1 1 calc(33.33% - 30px); /* отнимем margin и скажем растягиваться */
+    margin:10px;
+    /*background:#b5ced8;*/
+    flex-direction: row;
+    display: flex;
+    padding: 28px;
+}
+
+.offer_blocks__img {
+    margin-top: 5px;
+}
+
+.offer__error {
+    margin:10px;
+    padding: 28px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.offer__error__text {
+    width: 232px
+}
+
+.faq__title {
+    font-family: Literata;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 110%;
+    text-align: center;
+    color: #2A3A61;
+}
+
+.faq__questions__block {
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+    margin-top: 10px;
+}
+
+.faq__questions__prog, .faq__questions__bookkeeping, .faq__questions__tax, .faq__questions__documentation {
+    font-family: Literata;
+    font-size: 26px;
+    line-height: 120%;
+    color: #2A3A61;
+    margin-top: 50px;
+}
+
+.faq__text__prog, .faq__text__bookkeeping, .faq__text__tax, .faq__text__documentation {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 170%;
+    display: flex;
+    align-items: center;
+    color: #808080;
+    margin-top: 5px;
+}
+
+.faq__button {
+    width: 311px;
+    height: 55px;
+    background: #324B8C;
+    border-radius: 4px;
+    margin-top: 40px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 194.69%;
+    color: #FFFFFF;
+    border: 0;
+    margin-left: auto;
+    margin-right: auto
+}
