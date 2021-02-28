@@ -553,3 +553,8 @@ a {
     margin-left: auto;
     margin-right: auto
 }
+
+.footer__map iframe{
+    width: 100%;
+    height: 550px;
+}
