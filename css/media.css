@@ -1,0 +1,66 @@
+
+@media (min-width: 1100px) {
+    .header__top_viberIcon {
+        visibility: hidden;
+    }
+
+    .header__top_contacts {
+        max-width: 55px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .header__top {
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header__top_contacts {
+        z-index: -1;
+        margin-top: -56px;
+    }
+
+    .header__top_whatsappIcon {
+        margin-right: 100px;
+    }
+
+    .header__top_viberIcon {
+        margin-left: 100px;
+    }
+
+    .header__top > img {
+        position: relative;
+        order: -1;
+        margin: auto;
+        left: auto;
+        right: auto;
+    }
+
+    .header__top_contactsText {
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 13px;
+    }
+
+    .header__top_btn {
+        margin: auto;
+        margin-bottom: -15px;
+    }
+}
+
+@media (max-width: 793px) {
+    .header__top_workTime,
+    .header__top_address {
+        font-size: 14px;
+    }
+
+    .header__top_btn {
+        font-size: 14px !important;
+        
+    }
+
+    .header__nav > .container > nav > a {
+        font-size: 16px;
+    }
+}
