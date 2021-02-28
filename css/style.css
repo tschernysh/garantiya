@@ -52,6 +52,11 @@
     text-decoration: underline 2px #000000;
 }
 
+.documents__text {
+    margin-top: 20px;
+    font-family: Open Sans;
+    font-style: normal;
+}
 .header__top_workTime {
     font-weight: normal;
     color: #808080;
@@ -63,6 +68,23 @@
     color: #505050; 
     margin-top: -10px;   
 }
+.documents__title-box-bottom {
+    margin-top: 30px;
+}
+
+.documents__title-bottom {
+    font-family: Literata;
+    font-size: 26px;
+    line-height: 120%;
+    color: #2A3A61;
+    margin-bottom: 30px;
+}
+
+.documents__li {
+    font-family: Open Sans;
+    font-style: normal;
+}
+
 
 .header__top > img {
     height: 61px;
@@ -98,6 +120,9 @@
     justify-content: space-around;
     padding: 8px;
 }
+.footer__top {
+    margin-top: 25px;
+}
 
 .header__nav > .container > nav > a {
     font-family: 'Open Sans';
@@ -108,6 +133,15 @@
     color: #FFFFFF;
     text-decoration: none;
     padding: 0px 12px;
+}
+.footer__logo {
+    width: 106px;
+    height: 52px;
+}
+
+ul.footer__list li {
+    display: inline;
+    margin-right: 45px;
 }
 
 .main__slide{
@@ -359,6 +393,72 @@
     background-color: #324B8C;
     padding: 13px 23px 13px;
     border-radius: 4px;
+    line-height: 180%;
+    overflow-wrap: break-word;
+    margin-bottom: 15px;
+}
+
+.works__block{
+    width: 1170px;
+    margin: 87px auto 0;
+    text-align: center;
+}
+.works__header{
+    font-family: Literata;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 110%;
+    color: #2A3A61;
+}
+.works__element{
+    display: flex !important;
+    align-items: center;
+    width: 575px;
+    margin-right: 20px;
+}
+.works__element_text{
+    font-family: Open Sans;
+    text-align: left;
+    margin: 0 46px;
+}
+.works__element_header{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 130%;
+    margin-bottom: 14px;
+}
+.works__element_description{
+    font-size: 18px;
+    line-height: 150%;
+    margin-bottom: 14px;
+}
+.works__element_date{
+    font-size: 18px;
+    line-height: 150%;
+    color:  #9E9E9E;
+}
+.slick-slide{
+    display: flex !important;   
+}
+.slick__dots_works{
+    display: flex;
+    list-style-type: none;  
+    justify-content: center;
+}
+.slick__dots_works li{
+    margin-right: 10px;
+}
+.slick__dots_works li button{
+    padding: 0;
+    color: #EBEBEB;
+    width: 10px;
+    height: 10px;
+    font-size: 0;
+    border: none;
+    outline: none;
+}
+.slick__dots_works li.slick-active button{
+    background-color: #324B8C;
 }
 
 /*-----------buhhalteria-------------*/
