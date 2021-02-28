@@ -383,7 +383,7 @@ p {
 
 ul.footer__list li {
     display: inline;
-    margin-right: 45px;
+    margin-right: 33px;
 }
 
 a {
@@ -409,6 +409,7 @@ a {
 
 .footer__links {
     margin-top: 15px;
+    width: 183px;
 }
 
 .footer__bottom {
