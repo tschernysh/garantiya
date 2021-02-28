@@ -99,5 +99,8 @@
         padding: 0;
     }
 
+    .footer__links {
+        margin-left: 17px;
+    }
 
 }
