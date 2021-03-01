@@ -897,7 +897,8 @@ a {
     margin-bottom: 36px;
 }
 
-.offer__blocks__text, .offer__error__text {
+.offer__blocks__text,
+.offer__error__text {
     font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
@@ -915,7 +916,12 @@ a {
     margin: 0 auto;
 }
 
-.offer__consultations, .offer__bookkeeping, .offer__reports, .offer__legal, .offer__taxes, .offer__recovery {
+.offer__consultations,
+.offer__bookkeeping,
+.offer__reports,
+.offer__legal,
+.offer__taxes,
+.offer__recovery {
     flex:1 1 calc(33.33% - 30px);
     margin:10px;
     min-width: 300px;
@@ -926,7 +932,8 @@ a {
 }
 
 .offer_blocks__img {
-    margin-top: 5px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .offer__error {
@@ -967,7 +974,10 @@ a {
     padding: 0;
 }
 
-.faq__questions__prog, .faq__questions__bookkeeping, .faq__questions__tax, .faq__questions__documentation {
+.faq__questions__prog,
+.faq__questions__bookkeeping,
+.faq__questions__tax,
+.faq__questions__documentation {
     font-family: Literata;
     font-size: 26px;
     line-height: 120%;
@@ -975,7 +985,10 @@ a {
     margin-top: 50px;
 }
 
-.faq__text__prog, .faq__text__bookkeeping, .faq__text__tax, .faq__text__documentation {
+.faq__text__prog,
+.faq__text__bookkeeping,
+.faq__text__tax,
+.faq__text__documentation {
     font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
@@ -1003,4 +1016,67 @@ a {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 100px;
+}
+
+/*-----------registr-------------*/
+
+/*-----------why-------------*/
+
+.why__top__title {
+    font-family: Literata;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 110%;
+    text-align: center;
+    color: #2A3A61;
+    margin-top: 75px;
+}
+
+.why__top__text {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 140%;
+    text-align: center;
+    color: #646464;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.why__bottom{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 75px;
+    margin-left: 80px;
+}
+
+.why__bottom__trial,
+.why__bottom__guarantee,
+.why__bottom__work,
+.why__bottom__law,
+.why__bottom__consultation,
+.why__bottom__individual {
+    display: flex;
+    width: 500px;
+    margin: 20px;
+}
+
+.why__bottom__text {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    color: #191919;
+    margin-left: 10px;
+}
+
+.why__bottom__img {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 30px;
 }

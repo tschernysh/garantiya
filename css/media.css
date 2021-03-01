@@ -409,3 +409,35 @@
 		width: 300px;
 	}
 }
+
+/*-----------registr-------------*/
+
+/*-----------why-------------*/
+
+@media (max-width: 1220px) {
+    .why__bottom {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 750px) {
+    .why__bottom {
+        margin-left: 0;
+    }
+
+    .why__top__title {
+        font-size: 25px;
+    }
+
+    .why__top__text {
+        font-size: 16px;
+    }
+
+    .why__bottom__text {
+        font-size: 14px;
+    }
+
+    .why__bottom__img {
+        margin-right: 0;
+    }
+}
