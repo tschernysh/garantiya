@@ -1,4 +1,24 @@
 
+@media (max-width: 1150px) {
+    .accountingSupport__about {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 10px ;
+    }
+
+    .whyOutsourcing > div {
+        white-space: normal;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .whyOutsourcing__text {
+        padding: 0px 10px 15px 10px !important;
+    }
+
+    
+}
+
 @media (min-width: 1100px) {
     .header__top_viberIcon {
         visibility: hidden;
@@ -17,7 +37,6 @@
     }
 
     .header__top_contacts {
-        z-index: -1;
         margin-top: -56px;
     }
 
@@ -55,6 +74,10 @@
         margin-top: 65px;
     }
 
+    .areUbancrupt__form_top {
+        margin-bottom: 46px;
+    }
+
     .areUbancrupt__form_checkBoxes {
         flex-direction: column;
         margin-bottom: 35px;
@@ -68,20 +91,34 @@
         flex-direction: column;
     }
 
-    input[type="text"] {
-        margin-bottom: 27px;
-        margin-top: 60px;
-        width: 100% !important;
+    .whyOutsourcing > div {
+        white-space: normal;
+        flex-direction: column;
+        text-align: center;
     }
 
-    input[type="submit"] {
-        width: 100%;
+    .whyOutsourcing__form_sending_form {
+        flex-direction: column;
     }
- 
-    input[type="tel"] {
-        margin-bottom: 15px;
-        width: 100% !important;
+
+    .servicesForBusiness__form {
+        flex-direction: column;
     }
+
+    .accountingSupport__about {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 10px ;
+    }
+
+    .accountingSupport__btn {
+        visibility: hidden;
+    }
+
+    .accountingSupport__about_brick {
+        padding-left: 10px;
+    }
+
 }
 
 @media (max-width: 793px) {
@@ -99,12 +136,17 @@
         font-size: 16px;
     }
 
+    .areUbancrupt__form {
+        margin: 65px 10px 40px 10px;
+    }
+
     .areUbancrupt__form_top :nth-child(1) {
         font-size: 25px;
     }
 
     .areUbancrupt__form_top :nth-child(2) {
         font-size: 16px;
+        margin-bottom: 58px;
     }
 
     .areUbancrupt__form_checkBoxesBlock_h1 {
@@ -115,27 +157,78 @@
         font-size: 14px;
     }
 
-    .areUbancrupt__form_checkBoxesBlock {
-        padding: 40px 10px;
-    }
-
     .areUbancrupt__checkBox {
         font-size: 14px;
     }
 
-    input[type="checkbox"]:checked + span {
+    .checkBox:checked + span {
         font-size: 14px;
     }
 
-    input[type="text"] {
+    .areUbancrupt__form_input {
         font-size: 16px;
     }
 
-    input[type="tel"] {
-        font-size: 16px;
-    }
-
-    input[type="submit"] {
+    .areUbancrupt__form_submit {
         font-size: 14px;
     }
+
+    .accountingSupport__top :nth-child(1) {
+        font-size: 25px;
+    }
+
+    .accountingSupport__top :nth-child(2) {
+        font-size: 16px;
+    }
+
+    .accountingSupport__about_brickText_1,
+     .accountingSupport__about_brickText_2 {
+        font-size: 14px;
+    }
+
+    .whyOutsourcing__h1 {
+        font-size: 25px;
+    }
+
+    .whyOutsourcing > div {
+        font-size: 16px;
+    }
+
+    .whyOutsourcing__form_input {
+        font-size: 16px;
+    }
+
+    .whyOutsourcing__form_submit {
+        font-size: 14px;
+    }
+
+    .servicesForBusiness__top :nth-child(1) {
+        font-size: 25px;
+    }
+
+    .servicesForBusiness__top :nth-child(2) {
+        font-size: 16px;
+        padding: 0px 10px;
+    }
+
+    .servicesForBusiness__form_input {
+        font-size: 16px;
+    }
+
+    .servicesForBusiness__form_submit {
+        font-size: 14px;
+    }
+
+    .servicesForBusiness__allServices_h1 {
+        font-size: 25px;
+    }
+
+    .servicesForBusiness__allServices_Brick_h1 {
+        font-size: 14px;
+    }
+
+    .servicesForBusiness__allServices_Brick_text {
+        font-size: 14px;
+    }
+
 }

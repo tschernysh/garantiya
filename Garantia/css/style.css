@@ -5,6 +5,7 @@
 .container{
     max-width: 1170px;
     margin: 0 auto;
+    padding: 0px 10px;
 }
 
             /*----------HEADER-----------*/
@@ -31,7 +32,12 @@
     max-height: 55px;
 }
 
-svg {
+.header__top_whatsappIcon > svg {
+    max-width: 35px;
+    max-height: 35px;
+}
+
+.header__top_viberIcon > svg {
     max-width: 35px;
     max-height: 35px;
 }
@@ -60,6 +66,7 @@ svg {
     font-size: 16px;
     line-height: 194.69%;
     color: #000000;
+    margin-left: 10px;
 }
 
 .header__top_phone {
@@ -138,7 +145,7 @@ svg {
         /*----------'Are u bankrupt?' form----------*/
 
 .areUbancrupt__form {
-    margin-top: 97px;
+    margin: 63px 75px 37px 75px;
 }
 
 .areUbancrupt__form_top :nth-child(1){
@@ -169,7 +176,6 @@ svg {
     box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.05);
     display: flex;
     flex-direction: column;
-    padding: 60px;
     margin-top: 46px;
 }
 
@@ -212,7 +218,7 @@ svg {
     white-space: nowrap;
 }
 
-input[type="checkbox"]:checked + span {
+.checkBox:checked + span {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: normal;
@@ -227,7 +233,7 @@ input[type="checkbox"]:checked + span {
     box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.05);
 }
 
-input[type="text"] {
+.areUbancrupt__form_input {
     background: #FFFFFF;
     border: 2px solid #F0F0F0;
     box-sizing: border-box;
@@ -237,21 +243,14 @@ input[type="text"] {
     font-size: 18px;
     line-height: 194.69%;
     color: #AAAAAA;
+    padding-top: 9px;
+    padding-left: 21px;
+    padding-bottom: 11px;
+    flex-grow: 1;
+    margin-right: 15px;
 }
 
-input[type="tel"] {
-    background: #FFFFFF;
-    border: 2px solid #F0F0F0;
-    box-sizing: border-box;
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 194.69%;
-    color: #AAAAAA;
-}
-
-input[type="submit"] {
+.areUbancrupt__form_submit {
     background: #324B8C;
     border-radius: 4px;
     font-family: 'Open Sans';
@@ -262,6 +261,7 @@ input[type="submit"] {
     color: #FFFFFF;
     border: none;
     padding: 11px 23px 13px 23px;
+    cursor: pointer;
 }
 
 .areUbancrupt__form_sending_form {
@@ -269,6 +269,294 @@ input[type="submit"] {
     justify-content: space-between;
 }
 
+/*----------accounting support----------*/
 
+.accountingSupport__top :nth-child(1) {
+    font-family: 'Literata';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 110%;
+    text-align: center;
+    color: #2A3A61;
+    margin-top: 78px;
+    margin-bottom: 30px;
+}
+
+.accountingSupport__top :nth-child(2) {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 140%;
+    text-align: center;
+    color: #646464;
+}
+
+.accountingSupport__about_brickText_1 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    align-items: center;
+    color: #191919;
+    max-width: 75%;
+    margin-left: 32px;
+    margin-top: 10px;
+}
+
+.accountingSupport__about_brickText_2 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    align-items: center;
+    color: #191919;
+    max-width: 75%;
+    margin-left: 32px;
+}
+
+.accountingSupport__about_brick {
+    max-width: 575px;
+    height: 160px;
+    display: flex;
+    text-align: left;
+    float: left;
+    padding-top: 41px;
+    padding-left: 45px;
+}
+
+.accountingSupport__about_brick > svg {
+    min-width: 85px;
+}
+
+.accountingSupport__about {
+   margin-top: 46px;
+}
+
+.accountingSupport__btn {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 194.69%;
+    color: #FFFFFF;
+    background: #324B8C;
+    border-radius: 4px;
+    padding: 11px 23px 13px 23px;
+    text-decoration: none;
+    margin-top: 40px;
+    margin-bottom: 62px;
+}
+
+.accountingSupport {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*whyOutsourcing*/
+
+.whyOutsourcing__h1 {
+    font-family: 'Literata';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 110%;
+    text-align: center;
+    color: #2A3A61;
+    margin-bottom: 21px;
+    display: flex;
+    flex-grow: 1; 
+    justify-content: center;
+}
+
+
+
+.whyOutsourcing > div {
+    display: flex;
+    justify-content: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 150%;
+    color: #000000FF;
+    white-space: nowrap;
+}
+
+.whyOutsourcing > div > div {
+    padding-right: 30px;
+    padding: 0px 10px;
+}
+
+.whyOutsourcing__spans {
+    color: #324B8C;
+}
+   
+.whyOutsourcing__form_input {
+    background: #FFFFFF;
+    border: 2px solid #F0F0F0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 194.69%;
+    color: #AAAAAA;
+    padding-top: 9px;
+    padding-left: 21px;
+    padding-bottom: 11px;
+    flex-grow: 1;
+    margin-right: 15px;
+}
+
+.whyOutsourcing__form_submit {
+    background: #324B8C;
+    border-radius: 4px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 194.69%;
+    color: #FFFFFF;
+    border: none;
+    padding: 11px 23px 13px 23px;
+    cursor: pointer;
+    
+}
+
+.whyOutsourcing__form_sending_form {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 29px;
+}
+
+    /*----------services for business----------*/
+
+.servicesForBusiness {
+    margin-top: 144px;
+}
+
+.servicesForBusiness__top :nth-child(1) {
+    font-family: 'Literata';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 110%;
+    text-align: center;
+    color: #2A3A61;
+}
+
+.servicesForBusiness__top :nth-child(2) {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 140%;
+    text-align: center;
+    color: #646464;
+    margin-top: 21px;
+    margin-bottom: 33px;
+    padding: 0px 100px;
+}
+
+.servicesForBusiness__form_input {
+    background: #FFFFFF;
+    border: 2px solid #F0F0F0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 194.69%;
+    color: #AAAAAA;
+    padding-top: 9px;
+    padding-left: 21px;
+    padding-bottom: 11px;
+    flex-grow: 1;
+    margin-right: 15px;
+}
+
+.servicesForBusiness__form_submit {
+    background: #324B8C;
+    border-radius: 4px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 194.69%;
+    color: #FFFFFF;
+    border: none;
+    padding: 11px 23px 13px 23px;
+    cursor: pointer;
+}
+
+.servicesForBusiness__form {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 73px;
+}
+
+.servicesForBusiness__allServices {
+    margin-top: 78px;
+}
+
+.servicesForBusiness__allServices_h1 {
+    font-family: 'Literata';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 110%;
+    text-align: center;
+    color: #2A3A61;
+}
+
+.servicesForBusiness__allServices_Bricks {
+    display: flex;
+    flex-wrap: wrap;
+    vertical-align: middle;
+    justify-content: center;
+    margin-top: 36px;
+}
+
+.servicesForBusiness__allServices_Brick {
+    width: 560px;
+    display: flex;
+    padding: 20px 30px 20px 0px;
+    margin: 5px;
+}
+
+.servicesForBusiness__allServices_Brick > svg {
+    min-width: 68px;
+    
+}
+
+.servicesForBusiness__allServices_Brick > div {
+    max-width: 100%;
+    margin-left: 25px;
+}
+
+.servicesForBusiness__allServices_Brick_h1 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 120%;
+    color: #191919;
+    margin-bottom: 4px; 
+}
+
+.servicesForBusiness__allServices_Brick_text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 120%;
+    color: #808080;
+    
+}
 
 
