@@ -1,3 +1,53 @@
+@media (min-width: 1100px) {
+    .header__top_viberIcon {
+        visibility: hidden;
+    }
+
+    .header__top_contacts {
+        max-width: 55px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .header__top {
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header__top_contacts {
+        z-index: -1;
+        margin-top: -56px;
+    }
+
+    .header__top_whatsappIcon {
+        margin-right: 100px;
+    }
+
+    .header__top_viberIcon {
+        margin-left: 100px;
+    }
+
+    .header__top > img {
+        position: relative;
+        order: -1;
+        margin: auto;
+        left: auto;
+        right: auto;
+    }
+
+    .header__top_contactsText {
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 13px;
+    }
+
+    .header__top_btn {
+        margin: auto;
+        margin-bottom: -15px;
+    }
+}
+
 @media (max-width: 1220px) {
     .documents__content {
         flex-direction: column;
@@ -100,4 +150,262 @@
     }
 
 
+}
+@media (max-width: 830px) {
+
+    .areUbancrupt__form {
+        margin-top: 65px;
+    }
+
+    .areUbancrupt__form_checkBoxes {
+        flex-direction: column;
+        margin-bottom: 35px;
+    }
+
+    .areUbancrupt__form_checkBoxesBlock {
+        margin-top: -2px;
+    }
+
+    .areUbancrupt__form_sending_form {
+        flex-direction: column;
+    }
+
+    input[type="text"] {
+        margin-bottom: 27px;
+        margin-top: 60px;
+        width: 100% !important;
+    }
+
+    input[type="submit"] {
+        width: 100%;
+    }
+ 
+    input[type="tel"] {
+        margin-bottom: 15px;
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 793px) {
+    .header__top_workTime,
+    .header__top_address {
+        font-size: 14px;
+    }
+
+    .header__top_btn {
+        font-size: 14px !important;
+        
+    }
+
+    .header__nav > .container > nav > a {
+        font-size: 16px;
+    }
+
+    .areUbancrupt__form_top :nth-child(1) {
+        font-size: 25px;
+    }
+
+    .areUbancrupt__form_top :nth-child(2) {
+        font-size: 16px;
+    }
+
+    .areUbancrupt__form_checkBoxesBlock_h1 {
+        font-size: 17px;
+    }
+
+    .areUbancrupt__form_checkBoxesBlock_text {
+        font-size: 14px;
+    }
+
+    .areUbancrupt__form_checkBoxesBlock {
+        padding: 40px 10px;
+    }
+
+    .areUbancrupt__checkBox {
+        font-size: 14px;
+    }
+
+    input[type="checkbox"]:checked + span {
+        font-size: 14px;
+    }
+
+    input[type="text"] {
+        font-size: 16px;
+    }
+
+    input[type="tel"] {
+        font-size: 16px;
+    }
+
+    input[type="submit"] {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1220px)
+{
+	.documents__content
+	{
+		align-items: center;
+		flex-direction: column;
+	}
+	.documents__items
+	{
+		margin-top: -120px;
+	}
+	.documents__button
+	{
+		width: 412px;
+	}
+	.footer__top
+	{
+		align-items: center;
+		flex-direction: column;
+	}
+}
+@media (max-width: 950px)
+{
+	ul.footer__list li
+	{
+		display: block;
+		margin-top: 15px;
+	}
+	.footer__phone
+	{
+		margin-left: 46px;
+	}
+	.footer__mail
+	{
+		margin-left: 110px;
+	}
+}
+@media (max-width: 750px)
+{
+	body
+	{
+		margin-left: 10px;
+	}
+	.documents__example img
+	{
+		width: 350px;
+	}
+	.documents__title
+	{
+		font-size: 25px;
+	}
+	.documents__text
+	{
+		font-size: 16px;
+	}
+	.documents__title-bottom
+	{
+		font-size: 17px;
+	}
+	.documents__li
+	{
+		font-size: 14px;
+	}
+	.documents__inputs input
+	{
+		width: 300px;
+	}
+	.documents__button
+	{
+		width: 300px;
+	}
+	ul.footer__list li
+	{
+		display: block;
+		margin: 0;
+		margin-bottom: 12px;
+		text-align: center;
+	}
+	.footer__adress
+	{
+		font-size: 14px;
+		margin: 0;
+	}
+	.footer__phone
+	{
+		font-size: 16px;
+		margin: 0;
+	}
+	.footer__mail
+	{
+		font-size: 16px;
+		margin: 0;
+	}
+	.footer__bottom
+	{
+		font-size: 13px;
+	}
+	.footer__list
+	{
+		padding: 0;
+	}
+	.footer__links
+	{
+		margin-left: 17px;
+	}
+}
+@media (max-width: 1220px)
+{
+	.offer__blocks
+	{
+		align-items: center;
+	}
+	.offer__consultations, .offer__bookkeeping, .offer__reports, .offer__legal, .offer__taxes, .offer__recovery, .offer__error
+	{
+		padding-left: 10px;
+	}
+	.faq__media__text
+	{
+		color: #646464;
+		display: flex;
+		font-family: Open Sans;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: normal;
+		line-height: 140%;
+		margin-top: 18px;
+		text-align: center;
+	}
+}
+@media (max-width: 750px)
+{
+	.offer__title
+	{
+		font-size: 25px;
+		line-height: 110%;
+	}
+	.offer__text
+	{
+		font-size: 16px;
+		line-height: 140%;
+	}
+	.offer__blocks__text, .offer__error__text
+	{
+		font-size: 14px;
+		line-height: 135%;
+	}
+	.faq__title
+	{
+		font-size: 25px;
+		line-height: 110%;
+	}
+	.faq__questions__prog, .faq__questions__bookkeeping, .faq__questions__tax, .faq__questions__documentation
+	{
+		font-size: 17px;
+		line-height: 120%;
+	}
+	.faq__text__prog, .faq__text__bookkeeping, .faq__text__tax, .faq__text__documentation
+	{
+		font-size: 14px;
+		line-height: 150%;
+	}
+	.faq__button button
+	{
+		height: 55px;
+		width: 300px;
+	}
 }
